@@ -37,6 +37,11 @@ blog/bin/
 **/*.iml
 **/.idea
 **/.gradle
+*.iml
+**/.idea/
+
+# SonarLint
+**/.idea/sonarlint/
 
 #Other Files
 *.ini
