@@ -1,0 +1,85 @@
+# ==========================
+# Java / JVM
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+*.log
+
+# ==========================
+# Build / Gradle / Maven
+# ==========================
+/build/
+**/build/
+.gradle/
+/out/
+!gradle/wrapper/gradle-wrapper.jar
+target/
+**/target/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# ==========================
+# IntelliJ IDEA
+# ==========================
+*.iml
+.idea/
+**/.idea/
+**/.idea/sonarlint/
+**/out/
+
+# ==========================
+# Eclipse / STS
+# ==========================
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+bin/
+
+# ==========================
+# NetBeans
+# ==========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Node / frontend (se houver)
+# ==========================
+node_modules/
+
+# ==========================
+# Secrets / environment
+# ==========================
+*.env
+*.pem
+*.ppk
+
+# ==========================
+# Temporary / system
+# ==========================
+*.ini
+*.tmp
+*.temp
+/temp/
+**/temp/
+.metadata/
+*.log
+*.pid
+*.orig
